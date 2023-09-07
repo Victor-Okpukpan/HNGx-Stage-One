@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="HNGx stage one task" />
+    <meta name="author" content="Victor Okpukpan" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HNGx - Stage One</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="profile_header">
+        <div class="img_wrapper">
+          <img
+            src="./images/hero.jpg"
+            alt="Victor Okpukpan"
+            data-testid="slackDisplayImage"
+          />
+        </div>
+
+        <h1 data-testid="slackUserName">Victor Okpukpan</h1>
+      </div>
+
+      <div class="github_wrapper">
+        <a
+          href="https://github.com/Victor-Okpukpan/HNGx-Stage-One"
+          data-testid="githubURL"
+          >GitHub URL</a
+        >
+      </div>
+    </header>
+
+    <hr>
+
+    <main class="main">
+      <section>
+        <h2>Current Day of the Week</h2>
+        <p data-testid="currentDayOfTheWeek">Thursday</p>
+      </section>
+
+      <section>
+        <h2>Current UTC Time</h2>
+        <p data-testid="currentUTCTime" id="time"></p>
+      </section>
+
+      <section>
+        <h2>Track</h2>
+        <p data-testid="myTrack">Frontend</p>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
